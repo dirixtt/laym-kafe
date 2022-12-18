@@ -1,0 +1,179 @@
+.con{
+   height: 400px;
+   background-color: #333333;
+   /* position: relative; */
+   position: static;
+width: 100%;
+   box-sizing: border-box;
+}
+/* *{color: #fff;} */
+.left span{
+   color: #a1d214;
+   text-decoration: underline;
+}
+.left img{
+   height: 135px;
+width: 203px;
+left: 58px;
+top: 1828px;
+margin-bottom: 30px;
+color: #fff;
+border-radius: 0px;
+border: none;
+
+}
+.footer{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: auto;
+   color: #fff;
+   height: 100%;
+   width: 90%;
+}
+
+.left p{
+   height: 158px;
+width: 259px;
+left: 58px;
+top: 1999px;
+border-radius: nullpx;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.center ul{
+margin-top: 20px;
+
+}
+.center li{
+
+   font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 35px;
+/* or 229% */
+
+
+color: #FFFFFF;
+}
+
+.center p{
+   font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+opacity: 0.3;
+}
+.center{
+   display: flex;
+   justify-content: space-between;
+   width: 400px;
+   height: 100%;
+   align-items: center;
+   text-align: flex-start;
+}
+
+.riight h1 {
+   font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+display: flex;
+align-items: center;
+line-height: 51px;
+
+color: #FFFFFF;
+}
+.riight h1 i{
+   color: #a1d214;
+   font-size: 35px;
+   margin-right: 15px;
+}
+.riight button  i{
+   margin-right: 20px;
+}
+.riight button{
+   height: 45px;
+   display: flex;
+   align-items: center;
+   /* justify-content: center;
+    */
+    padding: 10px 20px;
+    /* text-align: left; */
+    /* padding-left: 20px; */
+    margin-top: 10px;
+   /* left: 71.95%; */
+   font-family: 'Montserrat';
+/* font-style: normal; */
+font-weight: 500;
+font-size: 14px;
+/* line-height: 32px; */
+/* identical to box height, or 229% */
+
+
+color: #FFFFFF;
+   right: 9.06%;
+   top: 2037px;
+   background-color: transparent;
+   color: #fff;
+   /* opacity: 0.3; */
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   border-radius: 10px;
+}
+.riight p{
+   font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 32px;
+/* identical to box height, or 229% */
+
+
+color: #FFFFFF;
+}
+.riight
+
+{
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   margin-top: 50px;
+}
+
+
+.iconss{
+   width: 85px;
+   margin-top: 32px;
+   opacity: 0.3;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 500px ),(min-width: 414px) { */
+
+  .footer{
+   width: 100%;
+   padding: 20px;
+  }
+  .riight{
+   display: none;
+  }
+  .left{
+   display: none;
+  }
+}

@@ -1,0 +1,862 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* cursor: pointer; */
+    box-sizing: border-box ;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    /* overflow-x: hidden; */
+    box-sizing: border-box;
+}
+
+.all {
+    width: 100%;
+    flex: 3;
+}
+
+.containerr {
+    width: 100%;
+}
+
+.cont {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 19px;
+    /* border: 1px solid #000; */
+}
+
+.toop {
+    margin-top: 37px;
+    width: 1000px;
+}
+
+.toop p {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.retsept h4 {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #333333;
+
+    opacity: 0.7;
+}
+
+.retsept h1 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-right: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.retsept {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 350px;
+    /* justify-content: space-between; */
+}
+
+.dropdown {
+    margin-top: 44px;
+    display: flex;
+    margin-right: 5px;
+}
+
+.dropdown .ull span{
+    color: #9B9B9B;
+    margin-left: 15px;
+}
+.dropdown .ull {
+    /* visibility: hidden; */
+    background: #000;
+    display: none;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.dropdown button:focus+.ull {
+    background-color: #fff;
+    display: block;
+    /* height: 250px; */
+    /* border: 1px solid #000; */
+}
+.ull li:focus{
+    display: block;
+    height: 250px;
+    background: #000;
+}
+
+.dropdown button li:focus{
+    background: #000;
+}
+.dropdown button:focus {
+    /* border: 2px solid #A1D214; */
+    display: flex;
+    align-items: flex-start;
+    padding-top: 15px;
+    /* flex-direction: column; */
+    background: #fff;
+    /* height: 250px; */
+}
+
+.dropdown button {
+    /* color: aliceblue; */
+    display: flex;
+    cursor: pointer;
+    width: 291px;
+    height: 49px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: 1px solid rgba(51, 51, 51, 0.1);
+    /* left: 38px; */
+    position: relative;
+    /* top: 237px; */
+    padding: 0 15px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-right: 13px; */
+}
+
+.tbottom li:hover {
+    background: rgba(51, 51, 51, 0.1);
+    /* border-left: 5px solid #000; */
+}
+
+/* .tbottom input{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    border-radius:0%;
+} */
+.tbottom li {
+    font-family: Montserrat;
+    width: 100%;
+    border-left: 1px solid #fff;
+    /* height: 100px; */
+    height: 45px;
+/* margin: 0 5px;/ */
+    /* padding-left: 15px; */
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    /* transition: ease-in .9s; */
+    /* line-height: 17px; */
+    /* margin: 10px 0; */
+}
+
+.tbottom ul {
+    background-color: #fff;
+    width: 100%;
+    /* height: 35px; */
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tbottom .dd3 {
+
+    height: 49px;
+    width: 257px;
+    /* margin-right: 0px; */
+    border-radius: 5px;
+
+}
+
+.tbottom .dd4 {
+    height: 49px;
+    width: 180px;
+
+    border-radius: 5px;
+
+}
+
+.tbottom .dd2 {
+    height: 49px;
+    width: 257px;
+    /* margin: 0px; */
+
+
+}
+
+.tbottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.cardd {
+    /* height: 500px; */
+    width: 323px;
+    box-shadow: 0px 0px 0px #fff;
+    border-radius: 50px;
+}
+
+.cardd img {
+    border: none;
+    border-radius: 0px;
+    width: 322px;
+    height: 249px;
+
+    z-index: 1;
+    /* position: relative; */
+    box-shadow: none;
+    /* border: 1px solid rgba(51, 51, 51, 0.05); */
+    /* border-radius: 10px; */
+}
+
+.aks button{
+    background: transparent;
+    border: none;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aks .ull {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: -135px;
+    width: 150px;
+    /* height: 20px; */
+}
+
+.rg .dropdown button:focus {
+    margin: 0;
+    padding: 0;
+    width: 140px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spani li{
+    margin: 0;
+    padding: 0;
+    height: 30px;
+}
+.spani{
+    width: 140px;
+    margin: 0;padding: 0;
+    
+}
+.aks{
+    width: 140px;
+    height: 45px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin-right: 10px;
+    padding:0;
+background: transparent;
+border: none;
+}
+.ratein i:nth-child(5){
+    color: #8b8b8b;
+}
+.ratein i{
+    color: gold;
+
+}
+.star {
+    color: gold;
+}
+
+/* 
+.start {
+    color: #333333;
+    /* border: 1px solid #000;   */
+/* //} */ */
+.close {
+    display: none;
+}
+.all {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartt img {
+    border: none;
+    border-radius: 0px;
+    width: 41px;
+    height: 70px;
+    /* position: relative; */
+    position: static;
+    box-shadow: none;
+    z-index: 0;
+}
+
+.butt input {
+    height: 20px;
+    width: 5px;
+}
+
+.cats {
+    /* margin-top: 10px; */
+    background: hsl(0, 0%, 95%);
+    width: 250px;
+    height: 647px;
+    border-radius: 10px;
+    position: relative;
+    padding-top: 10px;
+    margin-top: 1.5px;
+    display: flex;
+    /* margin-left: -100px; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.card-text{
+    /* margin-top: 20px; */
+    padding: 20px;
+}
+
+
+.cartt .close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    background-color: #fff;
+    position: absolute;
+}
+
+
+.cartt {
+    display: flex;
+    height: 75px;
+    width: 190px;
+    /* left: 1085px; */
+    background-color: #fff;
+    position: relative;
+    /* top: 122px; */
+    /* border: 1px solid #000; */
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+.butt button {
+    width: 18px;
+    height: 18px;
+    left: 1146px;
+    top: 129px;
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butt {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    flex-direction: column;
+    height: 100%;
+    cursor: pointer;
+    margin-left: 7px;
+}
+
+.description {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #333333;
+    width: 90px;
+    opacity: 0.7;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+.text p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.p .price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+.p .massa {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    /* identical to box height */
+    margin-left: 12px;
+
+    color: rgba(51, 51, 51, 0.5);
+
+}
+
+.p {
+    display: flex;
+
+    /* flex-direction: column; */
+}
+
+.title {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    /* line-height: 22px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 105%;
+    margin-right: -100px;
+    /* padding-left: 40px;  */
+    /* margin: auto; */
+    /* letter-spacing: 0em; */
+    text-align: center;
+
+}
+
+.icons .clock p {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    margin: 0 0 0 6px;
+
+    text-align: left;
+
+}
+
+.icons .clock i {
+    font-size: 12px;
+
+}
+
+.icons .clock {
+    display: flex;
+    align-items: center;
+    width: 85px;
+    /* height: 26px;     */
+    /* left: 45px; */
+    /* top: 1181px; */
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    /* justify-content: center; */
+}
+
+.icons .star i {
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.icons .star p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 0 24px;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.icons .star {
+    display: flex;
+    /* align-items: center; */
+    margin-left: 13px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    width: 230px;
+    height: 26px;
+    /* justify-content: space-between; */
+}
+
+.cb-img img {
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    height: 29px;
+    width: 28px;
+    left: 48px;
+    top: 726px;
+    border-radius: 0px;
+    margin: 0 3px;
+}
+
+.card-bottom button {
+    width: 174px;
+    height: 33px;
+    left: 153px;
+    top: 1215px;
+
+    background: #A1D214;
+    border-radius: 5px;
+    color: #000;
+    border: none;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 3px;
+    line-height: 15px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+
+}
+
+.card-bottom {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+
+.product-title p {
+    margin: 0;
+    display: flex;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    align-items: center;
+}
+
+.product-title h1 {
+    border-bottom: 5px solid #A1D214;
+    padding-bottom: 2px;
+}
+
+.product-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 100%; */
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.chik-img {
+    width: 100%;
+    height: 249px;
+    /* transition: background 50s; */
+    margin: 0;
+    object-fit: cover;
+    
+    padding: 0;
+    /* position: relative; */
+    /* overflow-y: hidden; */
+    border-radius: 10px;
+}
+
+.chik {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    position: absolute;
+    /* background: rgba(0, 0, 0, 0.138); */
+    border-radius: 10px;
+    transition: 2s;
+    top: 0px;
+    transform: translateY(100px);
+    /* transform:scale(0); */
+    /* transition:ease 5000s; */
+    left: 0;
+    z-index: 100;
+}
+
+
+.cardd .chik i{
+    bottom: 14px;
+    right: 10px;
+    /* font-family: Montserrat; */
+    font-size: 15px;
+    font-weight: 700;
+    /* line-height: 15px; */
+    position: absolute;
+}
+.cardd .chik p {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    bottom: 14px;
+    margin: 0;
+    left: 19px;
+    position: absolute;
+}
+
+
+.cartt{
+    margin-bottom: 10px; 
+    box-shadow: 0px 0px 2px #000;
+}
+/* .cardd{
+    margin-right: 20px;  
+} */
+
+.products {
+    display: block;
+    /* margin-top: 50px; */
+}
+
+.salat {
+    width: 100%;
+}
+
+.all-cards {
+    margin-top: 20px;
+    /* margin-right: 200px; */
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.products{
+    position: relative;
+    /* height: 400px;    */
+    /* width: 100%;/ */
+}
+
+.cardd{
+    margin-right: 30px;
+}
+
+.buttons button{
+    width: 27px;
+height: 72px;
+border: none;
+display: flex;
+cursor: pointer;
+justify-content: center;
+align-items: center;
+background: #FFFFFF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+
+.btn-2{
+    left: -15px;
+    position: absolute;
+}
+.btn-1{
+    right: -15px;
+    position: absolute;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    z-index: 9999;
+    top: 25%;
+    cursor: pointer;
+    transition: all 5s;
+    border: none;
+    /* justify-content: space-between; */
+}
+::selection{
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+
+button:active {
+    transform: scale(0.95);
+    border-radius: 0%;
+    color: #fff;
+}
+.total button{
+    width: 185px;
+height: 40px;
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+cursor: pointer;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+margin: 0;padding: 0;
+color: #333333;
+
+background: #A1D214;
+border-radius: 10px;
+}
+
+
+.df{
+    display: flex;
+    width: 98%;
+    overflow-y: hidden;
+}
+
+
+
+
+
+.dropd{
+    width: 100%;
+    /* position: static; */
+    position: absolute;
+    top: 50px;
+    height: 100%;
+left: 0;
+    
+}
+
+.sew-all
+{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.ddb:focus{
+    background-color: transparent;
+}
+.ddb{
+    border: none;
+    color: #000;
+    background-color: transparent;
+}
+
+.cards{
+    display: flex;
+    /* width: calc(100% / 0.9); */
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+}
+.tooop{
+    display: flex;
+}
+.botttom{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.product-title {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.ull li {
+    padding: 0 10px;
+    border-left: 2px solid rgb(95, 94, 94);
+    border-right: 2px solid rgb(95, 94, 94);
+    /* border: 1px solid #fff; */
+}
+
+ 
+
+@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 500px ),(min-width: 414px) { */
+
+    .tbottom{
+        display: none;
+    }
+    .retsept{
+        width: 100%;
+    }
+    .toop{
+        width: 100%;
+    }
+    
+    .ttop{
+        width: 100%;
+    }
+    .df{
+        /* width: 1000px; */
+        overflow-x: scroll;
+        overflow-x: visible;
+        width: 100%;
+    }
+    .aks{
+        width: 50px;
+        height: 50px;
+    }
+}
